@@ -10,12 +10,13 @@ package tp7;
  * @author Anto
  */
 public class Materia {
-     private int idMateria;
+
+    private int idMateria;
 
     private String nombre;
 
     private int anio;
-    
+
     public Materia(int idMateria, String nombre, int anio) {
         this.idMateria = idMateria;
         this.nombre = nombre;
@@ -73,10 +74,7 @@ public class Materia {
 
     @Override
     public String toString() {
-        return  nombre ;
+        return nombre;
     }
 
-    
-
-    
 }
